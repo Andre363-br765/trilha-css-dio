@@ -1,0 +1,77 @@
+/* Dispositivos médios: tablets */
+@media (max-width: 1024px) {
+  .banner .banner-content {
+    width: 80%;
+  }
+
+  #course-content,
+  #professional-challenges {
+    width: 90%;
+  }
+
+  #transform-world {
+    padding: 150px 20px;
+  }
+}
+
+/* Dispositivos pequenos: celulares */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .banner .banner-content button {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+
+  .banner .banner-content {
+    width: 90%;
+  }
+
+  #course-content .modules-list .module {
+    width: 100%;
+  }
+
+  #transform-world {
+    padding: 100px 10px;
+  }
+
+  #transform-world p {
+    font-size: 2rem;
+    max-width: 200px;
+  }
+}
+
+/* Dispositivos muito pequenos: smartphones estreitos */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+
+  .banner .banner-content button {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+  }
+
+  #transform-world p {
+    font-size: 1.5rem;
+    max-width: 150px;
+  }
+}
