@@ -30,7 +30,10 @@ section {
   font-weight: 900;
   text-transform: uppercase;
   color: transparent;
-  background: -webkit-linear-gradient(var(--cor-principal), var(--cor-secundaria));
+  background: -webkit-linear-gradient(
+    var(--cor-principal),
+    var(--cor-secundaria)
+  );
   background-clip: text;
   -webkit-background-clip: text;
 }

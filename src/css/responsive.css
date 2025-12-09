@@ -14,6 +14,21 @@
   }
 }
 
+/* Para celulares */
+@media (max-width: 768px) {
+  #professional-challenges {
+    width: 100%; /* ocupa toda a largura possível */
+    padding: 0 16px; /* garante espaço nas laterais */
+  }
+
+  #professional-challenges img {
+    max-width: 100%; /* nunca ultrapassa o container */
+    height: auto; /* mantém proporção */
+    display: block;
+    margin: 16px auto; /* centraliza e mantém margem vertical */
+  }
+}
+
 /* Dispositivos pequenos: celulares */
 @media (max-width: 768px) {
   h2 {
@@ -49,29 +64,53 @@
     font-size: 2rem;
     max-width: 200px;
   }
-}
 
-/* Dispositivos muito pequenos: smartphones estreitos */
-@media (max-width: 480px) {
-  h2 {
-    font-size: 1.25rem;
+  #professional-challenges {
+    width: 100%;
+    padding: 0 16px;
   }
 
-  .banner h1 {
-    font-size: 1.5rem;
+  #professional-challenges img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 16px auto;
   }
 
-  .banner p {
-    font-size: 0.9rem;
-  }
+  /* Dispositivos muito pequenos: smartphones estreitos */
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.25rem;
+    }
 
-  .banner .banner-content button {
-    padding: 10px 20px;
-    font-size: 0.8rem;
-  }
+    .banner h1 {
+      font-size: 1.5rem;
+    }
 
-  #transform-world p {
-    font-size: 1.5rem;
-    max-width: 150px;
+    .banner p {
+      font-size: 0.9rem;
+    }
+
+    .banner .banner-content button {
+      padding: 10px 20px;
+      font-size: 0.8rem;
+    }
+
+    #transform-world p {
+      font-size: 1.5rem;
+      max-width: 150px;
+    }
+
+    #professional-challenges {
+      width: 100%;
+      padding: 0 16px;
+    }
+
+    #professional-challenges img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 16px auto;
+    }
   }
 }
